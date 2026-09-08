@@ -1,0 +1,19 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local/private project data
+# Keep small reproducible metadata/scripts in git; avoid committing large downloads.
+data/raw/
+data/cache/
+
+# Generated scratch
+scratch/
+tmp/
